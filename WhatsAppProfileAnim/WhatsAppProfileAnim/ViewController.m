@@ -97,7 +97,7 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    NSLog(@"%@", NSStringFromCGPoint(self.detailsTableView.contentOffset));
+
 }
 
 - (void) scrollViewWillBeginDecelerating:(UIScrollView *)scrollView {
@@ -129,8 +129,6 @@
             
             [self updateWithOffset:heightDelta];
             
-//            NSLog(@"%@, %@, %f", NSStringFromCGPoint(currentLocation), NSStringFromCGPoint(lastLocation), deltaHeight);
-            
             lastLocation = currentLocation;
         }
             break;
@@ -150,8 +148,6 @@
 }
 
 - (void) updateWithOffset:(CGFloat)draggedOffset  {
-    
-    NSLog(@"%f", draggedOffset);
     
     BOOL hasToScroll = NO;
     
