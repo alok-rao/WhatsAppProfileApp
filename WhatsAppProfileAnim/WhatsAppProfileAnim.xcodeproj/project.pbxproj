@@ -13,12 +13,15 @@
 		5C2038481C4F57780025FC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2038461C4F57780025FC98 /* Main.storyboard */; };
 		5C20384A1C4F57780025FC98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2038491C4F57780025FC98 /* Assets.xcassets */; };
 		5C20384D1C4F57780025FC98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C20384B1C4F57780025FC98 /* LaunchScreen.storyboard */; };
-		5C20385D1C4F5E300025FC98 /* DetailsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20385C1C4F5E300025FC98 /* DetailsTableView.m */; settings = {ASSET_TAGS = (); }; };
-		5C2038601C4F5E740025FC98 /* WABaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20385F1C4F5E740025FC98 /* WABaseInfo.m */; settings = {ASSET_TAGS = (); }; };
-		5C2038641C4F5FFE0025FC98 /* WAStatusInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2038621C4F5FFE0025FC98 /* WAStatusInfoCell.m */; settings = {ASSET_TAGS = (); }; };
-		5C2038651C4F5FFE0025FC98 /* WAStatusInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2038631C4F5FFE0025FC98 /* WAStatusInfoCell.xib */; settings = {ASSET_TAGS = (); }; };
-		5C20386E1C4F6CB10025FC98 /* WABaseInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20386D1C4F6CB10025FC98 /* WABaseInfoCell.m */; settings = {ASSET_TAGS = (); }; };
-		5C2038711C4F94720025FC98 /* ResizableProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2038701C4F94720025FC98 /* ResizableProfileView.m */; settings = {ASSET_TAGS = (); }; };
+		5C20385D1C4F5E300025FC98 /* DetailsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20385C1C4F5E300025FC98 /* DetailsTableView.m */; };
+		5C2038601C4F5E740025FC98 /* WABaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20385F1C4F5E740025FC98 /* WABaseInfo.m */; };
+		5C2038641C4F5FFE0025FC98 /* WAStatusInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2038621C4F5FFE0025FC98 /* WAStatusInfoCell.m */; };
+		5C2038651C4F5FFE0025FC98 /* WAStatusInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C2038631C4F5FFE0025FC98 /* WAStatusInfoCell.xib */; };
+		5C20386E1C4F6CB10025FC98 /* WABaseInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C20386D1C4F6CB10025FC98 /* WABaseInfoCell.m */; };
+		5C2038711C4F94720025FC98 /* ResizableProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2038701C4F94720025FC98 /* ResizableProfileView.m */; };
+		A9B8B74E1C4FBF30008C39C7 /* ProfileImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B8B7491C4FBF30008C39C7 /* ProfileImageView.m */; };
+		A9B8B74F1C4FBF30008C39C7 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9B8B74C1C4FBF30008C39C7 /* bg1.jpg */; };
+		A9B8B7501C4FBF30008C39C7 /* IMG_0317.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9B8B74D1C4FBF30008C39C7 /* IMG_0317.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,10 @@
 		5C20386D1C4F6CB10025FC98 /* WABaseInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WABaseInfoCell.m; sourceTree = "<group>"; };
 		5C20386F1C4F94720025FC98 /* ResizableProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableProfileView.h; sourceTree = "<group>"; };
 		5C2038701C4F94720025FC98 /* ResizableProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableProfileView.m; sourceTree = "<group>"; };
+		A9B8B7481C4FBF30008C39C7 /* ProfileImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileImageView.h; sourceTree = "<group>"; };
+		A9B8B7491C4FBF30008C39C7 /* ProfileImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileImageView.m; sourceTree = "<group>"; };
+		A9B8B74C1C4FBF30008C39C7 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		A9B8B74D1C4FBF30008C39C7 /* IMG_0317.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0317.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +107,7 @@
 		5C2038581C4F5E300025FC98 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A9B8B7471C4FBF30008C39C7 /* Effects */,
 				5C2038591C4F5E300025FC98 /* Model */,
 				5C20385A1C4F5E300025FC98 /* Views */,
 			);
@@ -129,6 +137,33 @@
 				5C2038701C4F94720025FC98 /* ResizableProfileView.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A9B8B7471C4FBF30008C39C7 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8B7481C4FBF30008C39C7 /* ProfileImageView.h */,
+				A9B8B7491C4FBF30008C39C7 /* ProfileImageView.m */,
+				A9B8B74A1C4FBF30008C39C7 /* Resources */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		A9B8B74A1C4FBF30008C39C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8B74B1C4FBF30008C39C7 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9B8B74B1C4FBF30008C39C7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8B74C1C4FBF30008C39C7 /* bg1.jpg */,
+				A9B8B74D1C4FBF30008C39C7 /* IMG_0317.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +227,8 @@
 				5C2038651C4F5FFE0025FC98 /* WAStatusInfoCell.xib in Resources */,
 				5C20384A1C4F57780025FC98 /* Assets.xcassets in Resources */,
 				5C2038481C4F57780025FC98 /* Main.storyboard in Resources */,
+				A9B8B7501C4FBF30008C39C7 /* IMG_0317.jpg in Resources */,
+				A9B8B74F1C4FBF30008C39C7 /* bg1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +244,7 @@
 				5C20386E1C4F6CB10025FC98 /* WABaseInfoCell.m in Sources */,
 				5C2038451C4F57780025FC98 /* ViewController.m in Sources */,
 				5C2038421C4F57780025FC98 /* AppDelegate.m in Sources */,
+				A9B8B74E1C4FBF30008C39C7 /* ProfileImageView.m in Sources */,
 				5C20385D1C4F5E300025FC98 /* DetailsTableView.m in Sources */,
 				5C2038711C4F94720025FC98 /* ResizableProfileView.m in Sources */,
 				5C20383F1C4F57780025FC98 /* main.m in Sources */,
@@ -360,6 +398,7 @@
 				5C2038531C4F57780025FC98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
